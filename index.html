@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Conversor de moedas - ID3</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1 class="page-title">
+    Conversor de moedas
+  </h1>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+  <label for="valor">Insira o valor</label>
+  <input type="number" id="valor" size="2" /><br>
+  <div class=moedaEntrada>
+    <label class="moeda1" for="moeda1">De:</label><br>
+    <div class="dentro">
+      <input type="radio" name="entrada" value="brl">R$ - Real<br>
+      <input type="radio" name="entrada" value="usd">US$ - Dolar<br>
+      <input type="radio" name="entrada" value="eur">&#8364; - Euro<br>
+      <input type="radio" name="entrada" value="btc">&#8383; - Bitcoin<br>
+    </div>
+  </div>
+  <div class=moedaSaida>
+    <label class:"moeda2" for="moeda2">Para:</label><br>
+    <input type="radio" name="saida" value="brl">R$ - Real<br>
+    <input type="radio" name="saida" value="usd">US$ - Dolar<br>
+    <input type="radio" name="saida" value="eur">&#8364; - Euro<br>
+    <input type="radio" name="saida" value="btc">&#8383; - Bitcoin<br>
+  </div><br>
+  <button type="submit" onclick="Converter()">Converter</button>
+  <h2 id="valorConvertido"></h2>
+</div>
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
