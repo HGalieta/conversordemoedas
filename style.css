@@ -70,13 +70,15 @@ h2 {
 }
 
 .moedaEntrada {
-  background-color: #cd5c5c;
-  border-color: #8b0000;
+  background-color: rgba(255, 80, 80, 0.4);
+  border-color: rgba(255, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
 }
 
 .moedaSaida {
-  background-color: #8fbc8f;
-  border-color: #556b2f;
+  background-color: rgba(51, 204, 51, 0.4);
+  border-color: rgba(0, 153, 51, 0.4);
+  backdrop-filter: blur(8px);
 }
 
 .moeda1,
